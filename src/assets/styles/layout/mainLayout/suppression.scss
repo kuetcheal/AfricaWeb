@@ -1,0 +1,100 @@
+.suppression {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 660px;
+	width: 410px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+	position: fixed;
+	padding: 17px;
+	right: 1px;
+	bottom: 2px;
+
+	&__header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		.suppression__back {
+			position: fixed;
+			cursor: pointer;
+			right: 383px;
+			color: black;
+		}
+	}
+
+	&__title1 {
+		margin-right: auto;
+		color: rgb(96, 113, 196);
+
+		h6 {
+			font-size: 1.25rem;
+		}
+	}
+
+	&__account {
+		margin-right: auto;
+		color: rgb(96, 113, 196);
+		font-size: 18px;
+	}
+
+	&__great-box {
+		width: 380px;
+		height: 60px;
+		border: none;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 10px;
+		background-color: rgb(236, 236, 236);
+		border-radius: 12px;
+	}
+
+	&__little-box {
+		width: 40px;
+		height: 40px;
+		background-color: rgb(255, 188, 210);
+		border-radius: 12px;
+	}
+
+	&__nom {
+		position: fixed;
+		right: 233px;
+	}
+
+	&__commu {
+		position: fixed;
+		right: 50px;
+		color: rgb(96, 113, 196);
+	}
+
+	&__button-delet {
+		background-color: rgb(245, 210, 206);
+		color: rgb(228, 123, 122);
+		border: 2px solid rgb(228, 123, 122);
+		width: 380px;
+		height: 35px;
+		border-radius: 8px;
+		cursor: pointer;
+
+		&:hover {
+			background-color: rgb(255, 220, 216);
+			color: rgb(240, 130, 130);
+		}
+	}
+
+	&__alert {
+		color: rgba(0, 0, 0, 0.5);
+		font-size: 5px;
+		text-align: center;
+	}
+
+	&__logo {
+		height: 60px;
+		text-align: center;
+		width: 92px;
+		position: fixed;
+		bottom: 40px;
+	}
+}

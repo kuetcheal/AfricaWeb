@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@components/*": ["src/components/*"],
+			"@layout/*": ["src/components/layout/*"],
+			"@styles/*": ["src/assets/styles/*"],
+			"@constants/*": ["src/constants/*"],
+			"@navigation/*": ["src/navigation/*"],
+			"@helpers/*": ["src/helpers/*"],
+			"@common/*": ["src/components/common/*"],
+			"@assets/*": ["src/assets/*"],
+			"@shared/*": ["src/components/shared/*"],
+			"@utils/*": ["src/utils/*"],
+			"@fixtures/*": ["src/fixtures/*"],
+			"@services/*": ["src/services/*"],
+			"@actions/*": ["src/store/actions/*"],
+			"@reducers/*": ["src/store/reducers/*"],
+			"@selectors/*": ["src/store/selectors/*"],
+			"@hooks/*": ["src/hooks/*"]
+		}
+	},
+	"include": ["./node_modules/cypress", "cypress/**/*.js", "**/*.js", "**/*.jsx"],
+	"exclude": ["node_modules", "dist"]
+}

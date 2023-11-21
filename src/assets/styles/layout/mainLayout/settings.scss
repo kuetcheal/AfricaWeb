@@ -1,0 +1,135 @@
+.settings {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 17px;
+	position: fixed;
+	right: 1px;
+	background-color: rgb(255, 255, 255);
+	width: 410px;
+	height: 660px;
+	bottom: 2px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
+	&__header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	&__back {
+		position: fixed;
+		right: 383px;
+		cursor: pointer;
+		color: black;
+	}
+
+	&__title {
+		margin-right: auto;
+		color: rgb(96, 113, 196);
+	}
+
+	&__regla {
+		color: black;
+	}
+
+	&__user {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin: 20px;
+	}
+
+	&__Jenee {
+		position: fixed;
+		right: 337px;
+		cursor: pointer;
+	}
+
+	&__notif {
+		margin-right: auto;
+		color: rgb(96, 113, 196);
+	}
+
+	&__connexion {
+		text-align: center;
+		color: rgb(96, 113, 196);
+	}
+
+	&__switch-container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&__switch-labels1 {
+		margin-right: 50px;
+		right: 125px;
+	}
+
+	&__switch-labels2 {
+		margin-right: 50px;
+		right: 125px;
+	}
+
+	&__switch-labels3 {
+		margin-right: 50px;
+		right: 125px;
+	}
+
+	&__switch-labels4 {
+		margin-right: 50px;
+		right: 125px;
+	}
+
+	&__event {
+		color: rgb(167, 168, 171);
+		font-size: 12px;
+	}
+
+	&__buttons {
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+	}
+
+	&__button {
+		&:hover {
+			background-color: lightgray;
+			color: white;
+		}
+	}
+
+	&__button2-modi {
+		background-color: rgb(214, 230, 246);
+		color: rgb(96, 113, 196);
+		border: none;
+		width: 360px;
+		height: 35px;
+		border-radius: 10px;
+		cursor: pointer;
+
+		&:hover {
+			background-color: rgb(229, 245, 255);
+			color: rgb(121, 138, 216);
+		}
+	}
+
+	&__button1-delet {
+		background-color: rgb(244, 244, 244);
+		color: rgb(167, 168, 171);
+		border: none;
+		width: 360px;
+		height: 35px;
+		border-radius: 10px;
+		cursor: pointer;
+
+		&:hover {
+			background-color: rgb(255, 255, 255);
+			color: rgb(187, 188, 191);
+		}
+	}
+	.divider {
+		background-color: rgb(247, 247, 247);
+		width: 100%;
+	}
+}

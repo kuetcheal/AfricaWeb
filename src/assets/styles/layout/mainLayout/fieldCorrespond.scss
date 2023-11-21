@@ -1,0 +1,158 @@
+.field {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 17px;
+	position: fixed;
+	right: 1px;
+	background-color: rgb(255, 255, 255);
+	width: 410px;
+	height: 660px;
+	bottom: 2px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
+	&__header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	&__back {
+		position: fixed;
+		right: 383px;
+		cursor: pointer;
+		color: black;
+	}
+
+	&__title {
+		margin-right: auto;
+		color: black;
+	}
+
+	&__modif {
+		color: rgb(96, 113, 196);
+		margin-right: 111px;
+	}
+
+	&__input1 {
+		margin-left: 10px;
+		height: 40px;
+		width: 390px;
+		color: rgba(0, 0, 0, 0.5);
+		border-radius: 10px;
+		border-color: black;
+	}
+
+	.MuiInputAdornment-positionEnd {
+		position: fixed;
+		right: 11px;
+		top: 208px;
+		color: black;
+
+		&:nth-child(2) {
+			top: 351px;
+		}
+
+		&:nth-child(3) {
+			top: 468px;
+		}
+	}
+
+	&__password {
+		color: rgb(96, 113, 196);
+		margin-right: 227px;
+	}
+
+	&__confirm {
+		color: rgba(0, 0, 0, 0.5);
+		font-size: 14px;
+	}
+
+	&__new {
+		color: rgb(96, 113, 196);
+		margin-right: 208px !important;
+	}
+
+	&__actual {
+		color: rgba(0, 0, 0, 0.5);
+		font-size: 14px;
+	}
+
+	&__new {
+		color: rgb(96, 113, 196);
+		margin-right: 200px;
+	}
+
+	&__title2 {
+		color: rgb(96, 113, 196);
+		margin-right: 180px;
+	}
+
+	&__confirmation {
+		margin-right: 95px;
+		color: rgba(0, 0, 0, 0.5);
+		font-size: 14px !important;
+	}
+
+	&__input2 {
+		margin-left: 10px;
+		height: 40px;
+		width: 390px;
+		color: rgb(222, 83, 92);
+		border-radius: 10px;
+		border-color: rgb(222, 83, 92);
+		border: 2px solid rgb(222, 83, 92);
+
+		&::placeholder {
+			color: rgb(222, 83, 92) !important;
+			opacity: 1px;
+		}
+	}
+
+	&__input3 {
+		margin-left: 10px;
+		height: 40px;
+		width: 390px;
+		color: rgb(222, 83, 92);
+		border-radius: 10px;
+		border-color: rgb(222, 83, 92);
+		border: 2px solid rgb(222, 83, 92);
+
+		&::placeholder {
+			color: rgb(222, 83, 92);
+			opacity: 1px;
+		}
+	}
+
+	.MuiDivider-root {
+		background-color: rgb(247, 247, 247);
+		width: 100%;
+	}
+
+	&__button-suivant {
+		background-color: rgb(245, 210, 206);
+		color: rgb(222, 83, 92);
+		border: none;
+		width: 380px;
+		height: 35px;
+		border-radius: 12px;
+		border-radius: 10px;
+		cursor: pointer;
+
+		&:hover {
+			background-color: rgb(255, 220, 216);
+			color: rgb(240, 130, 130);
+		}
+	}
+
+	&__text {
+		text-align: center;
+		color: rgb(222, 83, 92);
+		font-size: 14px;
+	}
+
+	&__exact {
+		text-align: center;
+		color: rgb(222, 83, 92);
+		font-size: 14px;
+	}
+}
